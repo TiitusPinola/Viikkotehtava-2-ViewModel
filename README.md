@@ -13,6 +13,17 @@ Yksinkertainen Android-sovellus, jossa voit:
 - Funktiot tehtävien käsittelyyn: lisääminen, tila-muutos, suodatus ja lajittelu
 - Käyttöliittymä Composella, listanäkymä ja napit toimintoihin
 
+## Compose-tilanhallinta
+Jetpack Compose pitää kirjaa **tilasta**, eli siitä, mitä näytöllä pitäisi näyttää.  
+- Jos tilaa muutetaan, Compose piirtää näytön uudelleen automaattisesti.  
+- `remember` muistaa tilan vain sen funktion ajan, jossa sitä käytetään.
+
+### Miksi ViewModel on parempi kuin `remember`
+- `remember` unohtaa kaiken, jos vaihdat näyttöä tai kierrät puhelinta.  
+- **ViewModel** muistaa datan koko ruudun elinkaaren ajan.  
+- ViewModel on parempi, jos haluat tallentaa sovelluksen tietoja pidemmäksi aikaa, ja `remember` sopii vain pienen jutun muistamiseen hetkeksi.
+
+
 ## Teknologiat
 - Kotlin
 - Android Studio
