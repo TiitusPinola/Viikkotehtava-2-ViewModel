@@ -14,7 +14,7 @@ Yksinkertainen Android-sovellus, jossa voit:
 - Käyttöliittymä Composella, listanäkymä ja napit toimintoihin
 
 ## Compose-tilanhallinta
-Jetpack Compose pitää kirjaa **tilasta**, eli siitä, mitä näytöllä pitäisi näyttää.  
+- Jetpack Compose pitää kirjaa **tilasta**, eli siitä, mitä näytöllä pitäisi näyttää.  
 - Jos tilaa muutetaan, Compose piirtää näytön uudelleen automaattisesti.  
 - `remember` muistaa tilan vain sen funktion ajan, jossa sitä käytetään.
 
