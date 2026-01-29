@@ -1,4 +1,4 @@
-# Viikkotehtava-1-Kotlin-perusteet
+# Viikkotehtava-2
 
 ## Kuvaus
 Yksinkertainen Android-sovellus, jossa voit:
